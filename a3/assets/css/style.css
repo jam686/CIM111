@@ -1,0 +1,128 @@
+
+body{
+	background-color: #f6c2cf;
+  background-repeat: repeat-y; /* makes all background pink */ 
+  color: #8345a3;
+}
+
+
+.yellowbox{
+
+height: 190px;
+width: 1200px;
+background-color: yellow;
+color: blue;
+
+}
+.redbox{
+
+height: 600px;
+width: 1200px;
+background-color: #790808;
+color: black;
+
+}
+
+.purplebox{
+  height: 220px;
+  width: 1200px;
+  background-color: purple;
+  color: green;
+
+}
+
+
+/* same pink as background color */
+.pinkbox{
+  height: 150px;
+  width: 1200px;
+  background-color: #f6c2cf;
+  color: #16b1b1;
+
+}
+
+article{
+	margin-top: 100px;
+	width: 55%;
+	margin-left: 10px;
+	float: left;
+	background-color: #e8c5ae;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+}
+
+
+aside{
+	margin-top: 100px;
+	width: 20%;
+	    padding: 40px;
+	float: left;
+	margin-left: 100px;
+	background-color: #e8c5ae;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+
+nav{
+	text-align: right;
+	background-color: white;
+	padding-right: 15px;
+}
+
+h1{
+font-family: 'Notable', sans-serif;
+margin-bottom: 10px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-family: 'Crimson Text', sans-serif;
+}
+
+ul{
+	list-style-type: circle;
+	margin-left: 20px;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+a{
+	color: green;
+	font-size: 16px;
+  font-family: 'Crimson Text', sans-serif;
+    text-decoration: none;
+
+}
+
+tr{
+font-family: 'Crimson Text', sans-serif;
+
+}
+
+a:hover{
+	color: #ad7fad;
+	   border-style: solid;
+    border-width: 5px;
+    border-color: orange;
+}
+
+#contact-info {
+  font-family: "Notable",sans-serif;
+  width: 30%;
+
+}
+
+  #footer {
+position:fixed;
+margin-top: 100px;
+   bottom:0;
+   width:100%;
+   height:40px;
+  text-align: center;
+line-height: 60px;
+background-color: #f6c2cf;
+}
