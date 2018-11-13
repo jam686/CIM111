@@ -1,0 +1,53 @@
+body{
+	background-color: #cdde68;
+}
+
+.pasta{
+	display: grid;
+	grid-gap: 20px;
+
+}
+
+.sectionDogs{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+
+}
+
+.step 1{
+	background-image:
+	url("../images/Unknown.jpeg");
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	background-position: bottom right;
+}
+
+
+.boxes{
+	height: 50px;
+	width: 50px;
+	url("../images/Unknown.jpeg")
+	background-color: blue;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-image: url("../images/Unknown.jpeg");
+	color: white;
+	background-size: cover;
+	background-position: bottom right;
+	border-style: solid;
+	border-color: blue;
+
+}
+
+.alejandroBark{
+	border-color: red;
+}
+
+.addText{
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	color: white;
+	margin-top: 200px;
+}
