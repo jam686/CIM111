@@ -1,11 +1,167 @@
-<!DOCTYPE html>
 <html>
 
-  <head>
-     <title>Assignment 6: </title>
-  </head>
+<head>
+
+<title>Vacation Folder</title>
+
+<!-- Add external stylesheet -->
+
+
+<!-- add jquery library -->
+
+<script type = "text/javascript"
+
+src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+
+</script>
+
+<!-- add jquery plugin for fade animation -->
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script src = "https://code.jquery.com/jquery-1.9.1.js"></script>
+
+<!-- Add w3 css for responsiveness -->
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
 
 <body>
 
+<!--Image div -->
+
+<!--Navigation bar -->
+
+<script type="text/javascript" src="assets/js/a6.js"></script>
+<script type="text/javascript" src="assets/js/addText.js"></script>
+
+<div class="w3-bar w3-red">
+
+<a href="index.html" class=" w3-bar-item w3-button"><img style="margin-left:20px; height:50px;" src="https://ketoananpha.vn/images/site-logo.png"></a>
+
+<a href="index.html" class="active li w3-bar-item w3-button w3-hide-small">Home</a>
+
+</div>
+
+<!-- Drop down navigation bar -->
+
+<div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+
+<a href="index.html" class="w3-bar-item w3-button">Home</a>
+
+
+
+</div>
+
+<div >
+
+<!-- Add cover image from google -->
+
+<image src="file:///Users/JessMorgan/Desktop/CIM111/a6/Assets/Images/0531fyp.jpg" width="100%">
+
+</div>
+
+<!-- Content of page -->
+
+<div class= "container">
+
+<h1 id="heading1">
+
+<br/>
+
+This is Home Page
+
+</h1>
+
+<br/>
+
+<!-- this button will toggle the paragraph -->
+
+<button id="toggle">Hide Paragraph</button>
+
+<p id="o">
+
+I want to visit the Grand Canyon. Its natural beauty and preservation inspired me to make this website.</p> <br/>
+
+<!-- change the color of the background by jquery -->
+
+<select id="sel" onchange="go()">
+
+<option value= "">Choose Backgound Color</option>
+
+<option value= "pink">Pink</option>
+
+<option value= "#85C1E9">Sky blue</option>
+
+<option value= "grey">Grey</option>
+
+<option value= "white">White</option>
+
+</select>
+
+<!-- list item -->
+
+<h2>Reasons why I want to visit</h2>
+
+<ul id="ul">
+
+<li>It is pretty and natural</li>
+
+<li>I have never been there</li>
+
+</ul>
+
+<!-- text box to enter items into list -->
+
+<input type = "text" id = "text" placeholder= "Enter Item to List">
+
+<button onclick="ap()" id="li">Submit</button>
+
+<br/>
+
+<br/>
+
+<!-- images of the location -->
+
+<img id="book" src="file:///Users/JessMorgan/Desktop/CIM111/a6/assets/Images/AP42651233.jpg" alt="" width="100" height="123">
+
+<img id="book" src="file:///Users/JessMorgan/Desktop/CIM111/a6/assets/Images/Grand-Canyon-West-Rim-Luxury-Bus-Tour.jpg" alt="" width="100" height="123">
+
+<img id="book" src="file:///Users/JessMorgan/Desktop/CIM111/a6/assets/Images/images.jpeg" alt="" width="100" height="123">
+
+<img id="book" src="file:///Users/JessMorgan/Desktop/CIM111/a6/assets/Images/IMG_7400.jpg" alt="" width="100" height="123">
+
+<img id="book" src="file:///Users/JessMorgan/Desktop/CIM111/a6/assets/Images/MG_1239.jpg" alt="" width="100" height="123">
+
+</div>
+
+<!-- Add footer -->
+
+<footer>
+
+<div class="footer">
+
+<ul style="list-style-type: none;margin:2px;">
+
+<li class="li1" style="color:white; float:right;font-style :italic;margin-right:20px;">&copy; Grand Canyon</li>
+
+</ul>
+
+</div>
+
+</footer>
+
+<style>
+
+.li1{padding:10px;display:block;float:left;}
+
+.li1 a{text-decoration:none; color:white;font-weight:bold;}
+
+</style>
+
 </body>
+
 </html>
